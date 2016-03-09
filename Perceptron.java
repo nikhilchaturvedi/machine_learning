@@ -251,28 +251,4 @@ public class Perceptron {
 		return (min + (float)(Math.random() * ((max - min) + 1)));
 	}
 	
-	public static void main(String[] args)
-	{
-		double[] x = {1.0, 2.0, 3.0};
-		double[] y = {2.0, 3.0, 4.0};
-		
-		/*Plot2DPanel panel = new Plot2DPanel();
-		//panel.addLinePlot("Test", x, y);
-		//panel.addScatterPlot("Test", x, y);
-		panel.addScatterPlot("X", Color.blue, x);
-		panel.addScatterPlot("Y", Color.red, y);
-		
-		JFrame frame = new JFrame("Frame");
-		frame.setContentPane(panel);
-		frame.setVisible(true);
-		*/
-		//System.out.println(new Perceptron().randomNumbers(-1, 1));
-		Perceptron p = new Perceptron();
-		p.init(20);
-		//p.plot();
-		p.PLA();
-		float vec[] = {0, 0, 0};
-		//p.chooseMiscPoint(vec);
-	}
-	
 }
